@@ -4,7 +4,7 @@
   "description": "This Project explains all Node JS examples",
   "main": "app.js",
   "publishConfig": {
-    "registry": "http://3.129.69.94:8081/repository/td-prod/"
+    "registry": "http://3.129.69.94:8081/repository/td-nod-project/"
   },
   "scripts": {
     "server": "http-server -c-1 -p 9999",
