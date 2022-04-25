@@ -19,11 +19,11 @@ res.send("<h2>Welcome to Node JS express app</h2>"+appEnv.url+appEnv.port+port+p
 }).listen(9009);
 console.log(__dirname+"/images/mylandmarklogo.png");
 */
-app.get('/landmarktechnologies', function(request, response) {
-    //response.send("<h2><center>Welcome to Node JS app develpoed by MyLandmarkTech</h2>");
+app.get('/acadalearning', function(request, response) {
+    //response.send("<h2><center>Welcome to Node JS app develpoed by ACADA</h2>");
     response.write("<h2><center><u>Node JS  Application </u></center></h2>");
 	
-    response.write("<h2><center>Welcome to  Landmark Technologies. Please Contact +14372152483 for more information or send an email to info@mylandmarktech.com <center></h2>" );
+    response.write("<h2><center>Welcome to  ACADA Learning. Please Contact +15875742233 for more information or send an email to info@acadalearning.com <center></h2>" );
     response.end();
     
   })
@@ -42,12 +42,12 @@ app.get("/html", function(req,res){
     app.get("/jsonData", function(req,res){
         res.type('json');
         //res.type('application/json');
-        //res.json({'name': 'S. Legah'});
+        //res.json({'name': 'J. Efe'});
         res.send({
-		'name': 'Landmark Technologies',
+		'name': 'ACADA Learning',
 		'technology': 'DevOps',
-		'contact' : '+14372152483',
-		'email': 'info@mylandmarktech.com'
+		'contact' : '+15875742233',
+		'email': 'info@acadalearning.com'
 	            });
         
         });
@@ -70,12 +70,12 @@ app.get("/status-code-500", function(req, res) {
 
 app.get('/redirect', function(req, res) {
     //Send status 300
-        res.redirect('http://mylandmarktech.com');
+        res.redirect('http://acadalearning.com');
     });
     
  
     app.listen(app.get('port'), function() {
-        console.log("Node JS app is running at http://localhost:" + app.get('port') +"/landmarktechnologies");
+        console.log("Node JS app is running at http://localhost:" + app.get('port') +"/acadalearning");
       })
     
 
