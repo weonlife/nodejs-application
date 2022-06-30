@@ -17,7 +17,7 @@ console.log(__dirname);
 res.send("<h2>Welcome to Node JS express app</h2>"+appEnv.url+appEnv.port+port+process.env.LOGNAME);
 
 }).listen(9009);
-console.log(__dirname+"/images/mylandmarklogo.png");
+console.log(__dirname+"/images/logo1.jpg");
 */
 app.get('/acadalearning', function(request, response) {
     //response.send("<h2><center>Welcome to Node JS app develpoed by ACADA</h2>");
