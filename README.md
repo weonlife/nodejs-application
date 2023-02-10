@@ -1,6 +1,6 @@
 # nodejs-app-mss
 
-To start this application first you can get this repo code using below url
+To start this application first you can get this repo code using below url.
 
 git clone https://github.com/team16flight/nodejs-application
 
